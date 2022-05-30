@@ -4,7 +4,7 @@ export const config = {
     connection: {
       host: 'localhost',
       user: 'postgres',
-      password: 'Ravi31srv@',
+      password: '',
       database: 'products',
       port: 5432,
     },
