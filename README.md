@@ -2,6 +2,7 @@ NestJs application with product details which allows to add new product and get 
 
 db setup : 
    ==> create postgress database named 'product.
+   
    ==> create new table named 'product' using this query :
     
        CREATE TABLE products (
