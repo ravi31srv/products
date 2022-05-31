@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 
-import { IsString } from "class-validator";
+
 
 export class createProductRo {
-     id:number;
+    id:number;
     name: string;
     description: string;
     brand: string;
