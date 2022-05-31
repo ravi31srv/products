@@ -13,7 +13,7 @@ export class AppController {
     try {
       //checking of types of product details
       if (typeof (product.name) !== 'string' || typeof (product.description) !== 'string' || typeof (product.brand) !== 'string' || typeof (product.category) !== 'string') {
-        throw new BadRequestException("value of params name , description, brand, category should be of type string"
+        throw new BadRequestException("value of params name , description, brand and category should be of type string"
         )
       }
       return this.appService.createProduct(product);
