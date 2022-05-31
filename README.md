@@ -29,7 +29,7 @@ db setup :
     	"category": "formal"
 	}
  4. in postman go to 'localhost:3000/v1/products/items-by-category?category=formal&pageNo=1&pageSize=1'	with method type GET
-    here 3 query params are following
+    ,3 query params are following
        1. category
        2. pageNo
        3. pageSize
