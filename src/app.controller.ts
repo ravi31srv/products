@@ -29,7 +29,7 @@ export class AppController {
     }
   }
 
-  //route to get productby its category
+  //route to get product by category
   @Get('items-by-category')
   async getListOfProducts(@Query('category') category: string, @Query('pageNo') pageNo: number, @Query('pageSize') pageSize: number) {
     try {
